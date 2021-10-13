@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+   
+   <style type="text/css">
+    table, tr, td {
+    border: solid 1px;
+    }
+    table {
+    width: 80%;
+    }
+    .etiqueta p {
+    text-align: right;
+    }
+    td.campo {
+    width: 500px;
+    background-color: #FCE4CA;
+    }
+    
+    </style>
+
+</head>
+    <body>
+        <h2>FORMULARIO DE REGISTRO</h2>
+        <h4>Autor: Jaime Moreno Castilla</h4>
+        <h4>Fecha de creaci&oacute;n: 28-09-2021</h4>
+<form action="script.php">
+    <table>
+        <tr>
+        <td class="etiqueta">
+        <p>Nombre y apellidos</p>
+        </td>
+        <td class="campo">
+                <input type="text" name="nombre"/>
+        </td>
+        </tr>
+        <tr>
+        <td class="etiqueta">
+                <p>Curso</p>
+                </td>
+                <td class="campo">
+                        <select name="curso">
+                            <option value="1">1 ASIR</option>
+                            <option value="2">2 ASIR</option>
+                            <option value="3">1 DAW</option>
+                            <option value="4">2 DAW</option>
+                         </select>
+                </td>
+                </tr>
+                <tr>
+                <td class="etiqueta">
+                <p>Rango de edad</p>
+                </td>
+                <td class="campo">
+
+                        <input type="radio" name="edad" id="20" value="20">
+                        <label for="20">20</label><br>
+
+                        <input type="radio" name="edad" id="21" value="21">
+                        <label for="21">21</label><br>
+
+                        <input type="radio" name="edad" id="22" value="22">
+                        <label for="22">22</label><br>
+
+                        <input type="radio" name="edad" id="23" value="23">
+                        <label for="23">23</label><br>
+                </td>
+                </tr>
+                <tr>
+                <td class="etiqueta">
+                <p>Usuario</p>
+                </td>
+                <td class="campo">
+                        <input type="text" name="usuario">
+                </td>
+                </tr>
+                <tr>
+                <td class="etiqueta">
+                <p>Contrase&ntilde;a</p>
+                </td>
+                <td class="campo">
+                        <input type="password" name="pass">
+                </td>
+                </tr>
+
+                
+                <tr>
+                                <td class="etiqueta">
+                                <p>Aficiones</p>
+                                </td>
+                                <td class="campo">
+                
+                                        <input type="checkbox" name="aficiones[]" id="tv" value="tv">
+                                        <label for="tv">tv</label>
+                
+                                        <input type="checkbox" name="aficiones[]" id="radio" value="radio">
+                                        <label for="radio">radio</label>
+                
+                                        <input type="checkbox" name="aficiones[]" id="futbol" value="futbol">
+                                        <label for="futbol">futbol</label>
+                
+                                        <input type="checkbox" name="aficiones[]" id="netflix" value="netflix">
+                                        <label for="netflix">netflix</label>
+                                </td>
+                        
+            
+
+                
+
+                </tr>
+    </table>
+     <br>
+    <input type="submit" value="Enviar">
+</form>
+    </body>
+</html>
+                
+
+<!--Esto es una prueba para implantación web-->
